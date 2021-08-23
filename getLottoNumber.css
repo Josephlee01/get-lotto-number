@@ -2,25 +2,25 @@ body {
   text-align: center;
 }
 
-h1 {
-  color:blue;
+.title {
+  color:rgb(79, 79, 236);
+  font-size: 3rem;
+  text-shadow: 3px 3px rgb(198, 199, 248);
+  margin: 50px 50px;
+}
+
+.result {
+  color:brown;
   font-size: 4rem;
-  
+  text-shadow: 3px 3px rgb(198, 199, 248);
+  word-spacing: 1.05rem;
+  margin: 2rem 2rem;
 }
 
 button {
-  font-size: 3rem;
+  font-size: 1rem;
 }
 
-.number {
-  color:darkorchid;
-  font-size: 4rem;  
+.hidden {
+  display: none;
 }
-
-h2 {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  color:chocolate;
-  font-size: 2rem;
-}
-
