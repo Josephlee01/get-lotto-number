@@ -34,7 +34,7 @@ const makePensionNumber = (e) => {
   e.preventDefault();
   const pension = [];
   for (let i = 0; i < 6; i++) {
-    let pensionNumber = Math.floor(Math.random() * 9 + 1);
+    let pensionNumber = Math.floor(Math.random() * 10);
     pension.push(pensionNumber);
   }
   printPensionResult(pension);
