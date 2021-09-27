@@ -45,7 +45,8 @@ btn.addEventListener("click", makeLottoNumber);
 
 const printPensionResult = (pension) => {
   const pensionPrint = pension.join(" ");
-  result.innerText = `각 조의 ${pensionPrint}`;
+  result.innerText = `각 조의 
+  ${pensionPrint}`;
   pensionForm.classList.add("hidden");
 };
 
